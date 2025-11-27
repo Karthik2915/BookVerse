@@ -14,6 +14,7 @@ import { SignUp } from "./components/SignUp";
 import { AIAssistant } from "./components/AIAssistant";
 import { SubscriptionPage } from "./components/SubscriptionPage";
 import { PaymentPanel } from "./components/PaymentPanel";
+import { completeBooks } from "./data/completeBooks"; // Import completeBooks
 
 const API_URL = 'http://localhost:3001/api';
 
@@ -23,7 +24,7 @@ export default function App() {
   const [audioModeRequested, setAudioModeRequested] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedGenre, setSelectedGenre] = useState("All");
-  const [stories, setStories] = useState([]);
+  const [stories, setStories] = useState<any[]>([]);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [showGenreLoading, setShowGenreLoading] = useState(false);
   const [pendingGenre, setPendingGenre] = useState<string>("");
@@ -41,39 +42,11 @@ export default function App() {
     };
     setUser(demoUser);
     setIsAuthenticated(true);
+    setStories(completeBooks); // Load completeBooks into stories
   }, []);
 
-  useEffect(() => {
-    const fetchStories = async () => {
-      try {
-        const response = await fetch(`${API_URL}/stories?language=${selectedLanguage}`);
-        const data = await response.json();
-        setStories(data);
-      } catch (error) {
-        console.error('Failed to fetch stories:', error);
-      }
-    };
-
-    fetchStories();
-  }, [selectedLanguage]);
-
-  const fetchFullStory = async (storyId: string) => {
-    try {
-      const response = await fetch(`${API_URL}/stories/${storyId}`);
-      const fullStory = await response.json();
-      // The backend sends chapters, we need to combine them into a single 'content' string
-      if (fullStory.chapters && fullStory.chapters.length > 0) {
-        fullStory.content = fullStory.chapters.map((c: any) => c.content).join('\n\n');
-      }
-      return fullStory;
-    } catch (error) {
-      console.error(`Failed to fetch full story ${storyId}:`, error);
-      return null;
-    }
-  };
-
-  const handleReadStory = async (storyId: string) => {
-    const story = await fetchFullStory(storyId);
+  const handleReadStory = (storyId: string) => {
+    const story = completeBooks.find(book => book.id === storyId);
     if (story) {
       setCurrentStory(story);
       setAudioModeRequested(false);
@@ -81,8 +54,8 @@ export default function App() {
     }
   };
 
-  const handleListenStory = async (storyId: string) => {
-    const story = await fetchFullStory(storyId);
+  const handleListenStory = (storyId: string) => {
+    const story = completeBooks.find(book => book.id === storyId);
     if (story) {
       setCurrentStory(story);
       setAudioModeRequested(true);
@@ -163,26 +136,17 @@ export default function App() {
   if (currentView === "genre") return <GenrePage genre={selectedGenre} onBack={handleBackToHome} onReadStory={handleReadStory} onListenStory={handleListenStory} stories={stories} />;
   if (currentView === "my-stories") {
     if (!isAuthenticated) { setCurrentView("login"); return null; }
-    return <MyStories user={user} onBack={() => setCurrentView("home")} stories={stories.filter(s => s.authorId === user.id)} />;
+    const userStories = stories.filter((s: any) => s.authorId === user.id);
+    return <MyStories user={user} onBack={() => setCurrentView("home")} stories={userStories} />;
   }
   if (currentView === "subscription") return <SubscriptionPage />;
   if (currentView === "payment-panel") return <PaymentPanel />;
 
-  const getTrendingStories = () => stories.filter((story: any) => story.isTrending);
-  const getNewReleases = () => stories.filter((story: any) => {
-      const publishedDate = new Date(story.publishedAt);
-      const thirtyDaysAgo = new Date();
-      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-      return publishedDate >= thirtyDaysAgo;
-  });
-  const getTopRatedStories = () => [...stories].sort((a: any, b: any) => b.rating - a.rating).slice(0, 10);
-  const getAudioAvailableStories = () => stories.filter((story: any) => story.audioAvailable);
+  const trendingStories = stories.filter((story: any) => story.isTrending);
+  const newReleases = stories.filter((story: any) => story.isNewRelease);
+  const topRatedStories = [...stories].sort((a: any, b: any) => b.rating - a.rating).slice(0, 10);
+  const audioStories = stories.filter((story: any) => story.hasAudio);
   const getStoriesByGenre = (genre: string) => stories.filter((story: any) => story.genre === genre);
-  
-  const trendingStories = getTrendingStories();
-  const newReleases = getNewReleases();
-  const topRatedStories = getTopRatedStories();
-  const audioStories = getAudioAvailableStories();
 
   return (
     <div className="min-h-screen bg-background">
@@ -192,6 +156,7 @@ export default function App() {
         <div className="container mx-auto px-4 py-8 max-w-7xl overflow-x-hidden">
           {currentView === "home" && (
             <>
+              <HeroSection onReadStory={handleReadStory} onListenStory={handleListenStory} />
               <TrendingSection stories={trendingStories} onReadStory={handleReadStory} onListenStory={handleListenStory} />
               <div className="space-y-12 w-full overflow-x-hidden">
                 <StorySlider title="✨ New Releases" stories={newReleases} onReadStory={handleReadStory} onListenStory={handleListenStory} />
@@ -199,7 +164,7 @@ export default function App() {
                 <StorySlider title="🎧 Audio Stories" stories={audioStories} onReadStory={handleReadStory} onListenStory={handleListenStory} />
                 {["Anime", "Horror", "Mystery", "Romance", "Sci-Fi", "Fantasy"].map((genre) => {
                   const genreStories = getStoriesByGenre(genre);
-if (genreStories.length === 0) return null;
+                  if (genreStories.length === 0) return null;
                   return <StorySlider key={genre} title={`📚 ${genre} Stories`} stories={genreStories} onReadStory={handleReadStory} onListenStory={handleListenStory} />;
                 })}
               </div>

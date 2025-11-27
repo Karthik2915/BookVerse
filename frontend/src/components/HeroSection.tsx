@@ -3,9 +3,10 @@ import { Badge } from "./ui/badge";
 import { Card } from "./ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Play, BookOpen, Heart, TrendingUp, Star } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./common/ImageWithFallback";
+import { completeBooks } from "../data/completeBooks";
 
-interface FeaturedStory {
+interface Story {
   id: string;
   title: string;
   author: string;
@@ -13,21 +14,26 @@ interface FeaturedStory {
   genre: string;
   description: string;
   coverImage: string;
-  audioAvailable: boolean;
+  hasAudio: boolean;
   likes: number;
-  readTime: string;
+  readingTime: string;
   rating: number;
   isNewRelease?: boolean;
   isTrending?: boolean;
 }
 
 interface HeroSectionProps {
-  featuredStory: FeaturedStory;
   onReadStory: (id: string) => void;
   onListenStory: (id: string) => void;
 }
 
-export function HeroSection({ featuredStory, onReadStory, onListenStory }: HeroSectionProps) {
+export function HeroSection({ onReadStory, onListenStory }: HeroSectionProps) {
+  const featuredStory: Story = {
+    ...completeBooks[0],
+    isNewRelease: true,
+    isTrending: true,
+  };
+
   return (
     <div className="relative mb-12 overflow-hidden rounded-2xl bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 w-full">
       <div className="absolute inset-0 bg-black/20" />
@@ -88,7 +94,7 @@ export function HeroSection({ featuredStory, onReadStory, onListenStory }: HeroS
                   <Heart className="w-4 h-4" />
                   <span>{featuredStory.likes.toLocaleString()}</span>
                 </div>
-                <span>{featuredStory.readTime}</span>
+                <span>{featuredStory.readingTime}</span>
               </div>
               
               <div className="flex gap-3 pt-4">
@@ -101,7 +107,7 @@ export function HeroSection({ featuredStory, onReadStory, onListenStory }: HeroS
                   Start Reading
                 </Button>
                 
-                {featuredStory.audioAvailable && (
+                {featuredStory.hasAudio && (
                   <Button 
                     size="lg" 
                     variant="outline" 
