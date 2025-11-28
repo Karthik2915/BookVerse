@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Check } from "lucide-react";
+import { Check, ArrowLeft } from "lucide-react";
 import { PaymentGateway } from "./PaymentGateway";
 
 export function SubscriptionPage() {
@@ -55,6 +55,12 @@ export function SubscriptionPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black">
       <div className="container mx-auto px-4 py-12">
+        <div className="flex items-center justify-between mb-4">
+            <Button variant="ghost" onClick={() => window.history.back()}>
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back
+            </Button>
+        </div>
         <h1 className="text-4xl font-extrabold text-center mb-4 tracking-tight">
           Choose Your Plan
         </h1>
@@ -84,7 +90,7 @@ export function SubscriptionPage() {
                     </li>
                   ))}
                 </ul>
-                <Button 
+                <Button
                   className={`w-full text-lg py-6 font-semibold ${tier.isPremium ? 'bg-purple-600 hover:bg-purple-700 dark:bg-purple-500 dark:hover:bg-purple-600' : ''}`}
                   onClick={tier.isPremium && !tier.isCurrent ? handleSubscribeClick : undefined}
                   disabled={tier.isCurrent}

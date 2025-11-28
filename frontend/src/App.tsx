@@ -14,7 +14,7 @@ import { SignUp } from "./components/SignUp";
 import { AIAssistant } from "./components/AIAssistant";
 import { SubscriptionPage } from "./components/SubscriptionPage";
 import { PaymentPanel } from "./components/PaymentPanel";
-import { completeBooks } from "./data/completeBooks"; // Import completeBooks
+import { completeBooks, getCompleteBooksByLanguage } from "./data/completeBooks"; // Import getCompleteBooksByLanguage
 
 const API_URL = 'http://localhost:3001/api';
 
@@ -42,8 +42,8 @@ export default function App() {
     };
     setUser(demoUser);
     setIsAuthenticated(true);
-    setStories(completeBooks); // Load completeBooks into stories
-  }, []);
+    setStories(getCompleteBooksByLanguage(selectedLanguage)); // Load stories by language
+  }, [selectedLanguage]);
 
   const handleReadStory = (storyId: string) => {
     const story = completeBooks.find(book => book.id === storyId);
