@@ -139,7 +139,7 @@ export default function App() {
     const userStories = stories.filter((s: any) => s.authorId === user.id);
     return <MyStories user={user} onBack={() => setCurrentView("home")} stories={userStories} />;
   }
-  if (currentView === "subscription") return <SubscriptionPage />;
+  if (currentView === "subscription") return <SubscriptionPage onBack={() => setCurrentView("home")} />;
   if (currentView === "payment-panel") return <PaymentPanel />;
 
   const trendingStories = stories.filter((story: any) => story.isTrending);

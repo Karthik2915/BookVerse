@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Check, ArrowLeft } from "lucide-react";
 import { PaymentGateway } from "./PaymentGateway";
 
-export function SubscriptionPage() {
+export function SubscriptionPage({ onBack }: { onBack: () => void }) {
   const [showPaymentGateway, setShowPaymentGateway] = useState(false);
   const [currentPlan, setCurrentPlan] = useState("Free"); // Add currentPlan state
 
@@ -44,19 +44,19 @@ export function SubscriptionPage() {
     setShowPaymentGateway(false);
   };
 
-  const handleBack = () => {
+  const handlePaymentGatewayBack = () => {
     setShowPaymentGateway(false);
   };
 
   if (showPaymentGateway) {
-    return <PaymentGateway onPaymentSuccess={handlePaymentSuccess} onBack={handleBack} />;
+    return <PaymentGateway onPaymentSuccess={handlePaymentSuccess} onBack={handlePaymentGatewayBack} />;
   }
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black">
       <div className="container mx-auto px-4 py-12">
         <div className="flex items-center justify-between mb-4">
-            <Button variant="ghost" onClick={() => window.history.back()}>
+            <Button variant="ghost" onClick={onBack}>
                 <ArrowLeft className="mr-2 h-4 w-4" />
                 Back
             </Button>

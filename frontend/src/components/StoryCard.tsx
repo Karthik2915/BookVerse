@@ -94,7 +94,7 @@ export function StoryCard({
               >
                 <Book className="w-5 h-5" />
               </motion.button>
-              {audioAvailable && onListen && (
+              {onListen && (
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
@@ -117,7 +117,7 @@ export function StoryCard({
             </div>
             
             {/* Audio Badge */}
-            {audioAvailable && (
+            {onListen && (
               <div className="absolute top-3 right-3">
                 <Badge variant="secondary" className="bg-black/80 text-white border-0 shadow-sm">
                   🎧 Audio
@@ -148,7 +148,7 @@ export function StoryCard({
         <h3 className="font-semibold text-base line-clamp-2 group-hover:text-orange-600 transition-colors">
           {title}
         </h3>
-        <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
+        <p className="text-sm text-muted-foreground line-clamp-4 leading-relaxed">
           {description}
         </p>
         
@@ -194,7 +194,7 @@ export function StoryCard({
             Read
           </Button>
         </motion.div>
-        {audioAvailable && onListen && (
+        {onListen && (
           <motion.div 
             whileHover={{ scale: 1.02 }} 
             whileTap={{ scale: 0.98 }}
