@@ -20,7 +20,7 @@ interface StoryCardProps {
   readTime: string;
   views: number;
   onRead: (id: string) => void;
-  onListen?: (id: string) => void;
+  onListen: (id: string) => void;
 }
 
 export function StoryCard({
@@ -94,19 +94,17 @@ export function StoryCard({
               >
                 <Book className="w-5 h-5" />
               </motion.button>
-              {onListen && (
-                <motion.button
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onListen(id);
-                  }}
-                  className="p-3 bg-orange-500/90 backdrop-blur-sm rounded-full text-white hover:bg-orange-500 transition-colors shadow-lg"
-                >
-                  <Play className="w-5 h-5" />
-                </motion.button>
-              )}
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onListen(id);
+                }}
+                className="p-3 bg-orange-500/90 backdrop-blur-sm rounded-full text-white hover:bg-orange-500 transition-colors shadow-lg"
+              >
+                <Play className="w-5 h-5" />
+              </motion.button>
             </div>
             
             {/* Badges */}
@@ -117,13 +115,11 @@ export function StoryCard({
             </div>
             
             {/* Audio Badge */}
-            {onListen && (
-              <div className="absolute top-3 right-3">
-                <Badge variant="secondary" className="bg-black/80 text-white border-0 shadow-sm">
-                  🎧 Audio
-                </Badge>
-              </div>
-            )}
+            <div className="absolute top-3 right-3">
+              <Badge variant="secondary" className="bg-black/80 text-white border-0 shadow-sm">
+                🎧 Audio
+              </Badge>
+            </div>
             
             {/* Bookmark Button */}
             <motion.button
