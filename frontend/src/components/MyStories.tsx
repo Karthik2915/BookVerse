@@ -20,7 +20,8 @@ import {
   Users,
   Target,
   ArrowLeft,
-  Search
+  Search,
+  Play
 } from "lucide-react";
 import { mockUserStories, getStoryStats, UserStory, Chapter } from "../data/userStories";
 import { apiService } from "../services/api";
@@ -31,6 +32,8 @@ import { StoryAnalytics } from "./StoryAnalytics";
 interface MyStoriesProps {
   user: any;
   onBack: () => void;
+  onReadStory: (storyId: string) => void;
+  onListenStory: (storyId: string) => void;
 }
 
 // Helper function to get default cover image based on genre
@@ -51,7 +54,7 @@ function getDefaultCoverImage(genre: string): string {
   return coverImages[genre as keyof typeof coverImages] || 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400';
 }
 
-export function MyStories({ user, onBack }: MyStoriesProps) {
+export function MyStories({ user, onBack, onReadStory, onListenStory }: MyStoriesProps) {
   const [stories, setStories] = useState<UserStory[]>(mockUserStories);
   const [filteredStories, setFilteredStories] = useState<UserStory[]>(mockUserStories);
   const [searchQuery, setSearchQuery] = useState("");
@@ -548,6 +551,24 @@ export function MyStories({ user, onBack }: MyStoriesProps) {
 
                               {/* Actions */}
                               <div className="flex items-center gap-2 ml-4">
+                                <Button
+                                  variant="outline"
+                                  size="sm"
+                                  onClick={() => onReadStory(story.id)}
+                                  className="gap-1"
+                                >
+                                  <BookOpen className="w-4 h-4" />
+                                  Read
+                                </Button>
+                                <Button
+                                  variant="outline"
+                                  size="sm"
+                                  onClick={() => onListenStory(story.id)}
+                                  className="gap-1"
+                                >
+                                  <Play className="w-4 h-4" />
+                                  Listen
+                                </Button>
                                 <Button
                                   variant="outline"
                                   size="sm"

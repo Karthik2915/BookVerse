@@ -187,30 +187,31 @@ export function StoryCard({
         >
           <Button 
             onClick={() => onRead(id)} 
-            className="w-full gap-2 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white border-0"
+            className="w-full gap-2 bg-gradient-to-r from-orange-500 to-yellow-500 
+                       hover:from-orange-600 hover:to-yellow-600 text-white border-0"
             size="sm"
           >
             <Book className="w-4 h-4" />
             Read
           </Button>
         </motion.div>
-        {onListen && (
-          <motion.div 
-            whileHover={{ scale: 1.02 }} 
-            whileTap={{ scale: 0.98 }}
-            className="flex-1"
+
+        <motion.div 
+          whileHover={{ scale: 1.02 }} 
+          whileTap={{ scale: 0.98 }}
+          className="flex-1"
+        >
+          <Button 
+            onClick={() => onListen(id)} 
+            variant="outline" 
+            className="w-full gap-2 border-orange-200 text-orange-600 
+                       hover:bg-orange-50 hover:border-orange-300"
+            size="sm"
           >
-            <Button 
-              onClick={() => onListen(id)} 
-              variant="outline" 
-              className="w-full gap-2 border-orange-200 text-orange-600 hover:bg-orange-50 hover:border-orange-300"
-              size="sm"
-            >
-              <Play className="w-4 h-4" />
-              Listen
-            </Button>
-          </motion.div>
-        )}
+            <Play className="w-4 h-4" />
+            Listen
+          </Button>
+        </motion.div>
       </CardFooter>
     </Card>
     </motion.div>

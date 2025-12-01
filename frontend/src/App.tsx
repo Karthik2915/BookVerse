@@ -137,7 +137,7 @@ export default function App() {
   if (currentView === "my-stories") {
     if (!isAuthenticated) { setCurrentView("login"); return null; }
     const userStories = stories.filter((s: any) => s.authorId === user.id);
-    return <MyStories user={user} onBack={() => setCurrentView("home")} stories={userStories} />;
+    return <MyStories user={user} onBack={() => setCurrentView("home")} stories={userStories} onReadStory={handleReadStory} onListenStory={handleListenStory} />;
   }
   if (currentView === "subscription") return <SubscriptionPage onBack={() => setCurrentView("home")} />;
   if (currentView === "payment-panel") return <PaymentPanel />;
