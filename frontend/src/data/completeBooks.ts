@@ -21,7 +21,317 @@ export const completeBooks = [
     readingTime: "2h 45m",
     publishedDate: "2024-12-15",
     tags: ["Magic", "Adventure", "Epic"],
-    content: `Chapter 1: The Discovery...`
+    content: `Chapter 1: The Discovery
+
+The ancient library smelled of dust and secrets. Lyra ran her fingers along the leather-bound spines, searching for something she couldn't quite name.
+
+"You shouldn't be here," called Marcus from the doorway. His deep voice echoed through the chamber. "The headmaster will have both our heads if he finds you in the restricted section."
+
+"Then don't tell him," Lyra replied, her voice sharp with determination. She pulled a tome from the shelf, and behind it, something glittered in the darkness.
+
+Marcus stepped closer, his armor clinking softly. "What is that?"
+
+"I don't know," Lyra whispered, reaching for the crystal. The moment her fingers touched its surface, the room flooded with purple light.
+
+"Lyra, stop!" Marcus shouted, rushing toward her.
+
+But it was too late. Visions flooded Lyra's mind—ancient wars, fallen kingdoms, and a darkness that consumed everything in its path. She gasped and pulled her hand away, stumbling backward into Marcus's arms.
+
+"What did you see?" he asked, steadying her.
+
+"The end of everything," she breathed. "Unless we stop it."
+
+Chapter 2: The Prophecy Revealed
+
+Professor Aldric's study was lined with maps and magical artifacts. The elderly wizard sat behind his desk, the crystal now resting on a velvet cushion before him.
+
+"This is the Crystal of Eternal Night," Aldric said gravely. "I thought it was merely a legend."
+
+"What does it do?" Lyra asked, still shaken from her vision.
+
+Aldric's weathered face grew solemn. "It can bend darkness itself to the wielder's will. In the wrong hands, it could plunge our world into eternal shadow."
+
+Marcus crossed his arms. "Then we destroy it."
+
+"We cannot," Aldric replied. "The crystal is indestructible. It can only be sealed away in the Vault of Stars, hidden in the Mountains of Dawn."
+
+"How far?" Lyra asked.
+
+"Three weeks' journey," Aldric said. "Through the Whispering Forest and across the Crimson Desert."
+
+Lyra stood, her resolve hardening. "Then we leave at dawn."
+
+Marcus looked at her with concern. "Lyra, this is dangerous—"
+
+"I know," she interrupted. "But I saw what happens if we fail. I won't let that future come to pass."
+
+Chapter 3: Into the Whispering Forest
+
+The forest earned its name. Voices seemed to drift through the trees, speaking words just beyond comprehension.
+
+"Stay close," Marcus said, his hand on his sword hilt. "These woods are not natural."
+
+Lyra's magic hummed at her fingertips, ready to defend them. "I can feel something watching us."
+
+Suddenly, a figure stepped from the shadows—a woman with silver hair and eyes that gleamed like starlight.
+
+"Who dares enter my domain?" she demanded, her voice melodic yet dangerous.
+
+"We mean no harm," Lyra said carefully. "We're simply passing through to the Mountains of Dawn."
+
+The woman's eyes narrowed. "I am Seraphina, guardian of this forest. Many have claimed innocent passage. Few speak truth."
+
+Marcus stepped forward. "We carry something that must be protected. Something that could destroy your forest and everything beyond it."
+
+Seraphina's expression shifted to curiosity. "Show me."
+
+Lyra hesitated, then revealed the crystal. The guardian's eyes widened.
+
+"The Crystal of Eternal Night," Seraphina whispered. "I thought it lost forever."
+
+"We're taking it to the Vault of Stars," Lyra explained.
+
+Seraphina studied them for a long moment. "Then I shall guide you through my forest. But know this—darker forces seek that crystal. Your journey has only just begun."
+
+Chapter 4: The Crimson Desert
+
+The heat was unbearable. Sand stretched endlessly in every direction, stained red by iron deposits that gave the desert its name.
+
+"We should have brought more water," Marcus muttered, his face glistening with sweat.
+
+Seraphina walked ahead, seemingly unaffected. "The oasis is near. We'll rest there."
+
+Lyra shielded her eyes from the sun. "How can you tell? Everything looks the same."
+
+"I can sense the water," Seraphina replied. "It calls to those who listen."
+
+As they crested another dune, Marcus suddenly dropped to one knee. "Something's wrong."
+
+Dark shapes appeared on the horizon—riders on horses black as midnight.
+
+"Shadow Knights," Seraphina hissed. "They serve the Dark Lord Malachar. He must know about the crystal."
+
+Lyra's hands crackled with magical energy. "How many?"
+
+"Ten," Marcus counted, rising to his feet and drawing his sword. "We're outnumbered."
+
+"Then we fight smart," Lyra said. "Seraphina, can you create a sandstorm?"
+
+The guardian smiled. "I thought you'd never ask."
+
+Chapter 5: The Battle of Red Sands
+
+Sand whirled around them as Seraphina summoned the storm. The Shadow Knights struggled to see through the swirling chaos.
+
+"Now!" Marcus shouted, charging forward.
+
+Lyra unleashed bolts of lightning, each one crackling through the air and striking with precision. The Shadow Knights' horses reared in panic.
+
+Marcus's sword clashed against dark steel. "There's too many!"
+
+One knight broke through, heading straight for Lyra. She raised her hands, but before she could cast, an arrow struck the knight from his horse.
+
+"Need help?" called a new voice.
+
+A young archer stood atop a nearby dune, bow at the ready. She had wild red hair and a confident grin.
+
+"Who are you?" Lyra called back.
+
+"Name's Kira," the archer replied, loosing another arrow. "And you looked like you could use a hand."
+
+Together, the four of them fought off the Shadow Knights. When the last rider fled, they stood victorious but exhausted.
+
+"Why did you help us?" Marcus asked, eyeing Kira suspiciously.
+
+Kira shrugged. "I've been tracking those knights for days. Enemy of my enemy, and all that." She glanced at Lyra's pack. "Plus, whatever you're protecting must be important if Malachar sent his best after you."
+
+Lyra and Marcus exchanged looks.
+
+"We could use another fighter," Lyra admitted.
+
+Marcus nodded reluctantly. "Welcome to the quest, Kira."
+
+Chapter 6: The Mountains of Dawn
+
+The mountains rose like titans against the sky, their peaks glowing pink in the eternal sunrise that gave them their name.
+
+"The Vault is at the summit," Seraphina said, pointing to the highest peak. "But the path is treacherous."
+
+They climbed for hours, the air growing thin and cold. Kira led the way, her keen eyes spotting handholds and safe passages.
+
+"So this crystal," Kira said as they rested on a ledge. "What exactly does it do?"
+
+"It controls darkness," Lyra explained. "In the wrong hands—"
+
+"It could end the world," Kira finished. "Yeah, got that part. But why not just throw it into a volcano or something?"
+
+"It's indestructible," Marcus said. "The Vault is the only place where it can be sealed away forever."
+
+Kira whistled low. "No pressure then."
+
+Suddenly, the mountain shook. Rocks tumbled down around them.
+
+"What was that?" Lyra cried.
+
+Seraphina's face paled. "A dragon. The Vault is guarded by Draxus the Eternal."
+
+A massive shadow passed overhead, and a roar shook the very mountain.
+
+"Of course there's a dragon," Kira muttered. "Why wouldn't there be a dragon?"
+
+Chapter 7: Draxus the Eternal
+
+The dragon landed before them, scales gleaming like molten gold. Its eyes were ancient and wise, burning with inner fire.
+
+"Who disturbs my vigil?" Draxus rumbled, voice like thunder.
+
+Lyra stepped forward, bowing respectfully. "Great Draxus, we seek to seal the Crystal of Eternal Night in the Vault. We mean no disrespect."
+
+The dragon's massive head lowered, studying her. "The crystal. I have not sensed its presence in a thousand years." His gaze shifted to Lyra's pack. "You carry a terrible burden, young mage."
+
+"I know," Lyra said quietly. "That's why it must be sealed away."
+
+Draxus was silent for a long moment. "Many have sought the Vault for selfish reasons—power, treasure, immortality. But you... you seek to protect others at great cost to yourself."
+
+"We all do," Marcus said, stepping beside Lyra. "This isn't just her burden. It's ours."
+
+Kira and Seraphina nodded in agreement.
+
+The dragon's expression softened, something like a smile crossing his ancient features. "Very well. I shall grant you passage. But know this—once the crystal is sealed, it can never be retrieved. Are you certain?"
+
+Lyra didn't hesitate. "Yes."
+
+"Then follow me," Draxus said, spreading his massive wings. "The Vault awaits."
+
+Chapter 8: The Vault of Stars
+
+The Vault was a chamber carved from pure crystal, its walls reflecting starlight from some unknown source. Ancient runes covered every surface, pulsing with protective magic.
+
+"Place the crystal on the pedestal," Draxus instructed.
+
+Lyra approached slowly, the Crystal of Eternal Night feeling heavier with each step. She set it down carefully, and immediately the runes flared to life.
+
+"Now speak the words of binding," Draxus said.
+
+But before Lyra could speak, a dark laugh echoed through the chamber.
+
+"Did you really think it would be so easy?" 
+
+A figure materialized from the shadows—tall, wrapped in darkness, with eyes that burned red. Malachar himself had come.
+
+"Step away from the crystal, child," the Dark Lord commanded. "It belongs to me."
+
+"Never," Lyra said, magic crackling around her hands.
+
+Malachar smiled cruelly. "Then die with your friends."
+
+The final battle had begun.
+
+Chapter 9: The Dark Lord's Gambit
+
+Shadow and light clashed as Malachar attacked. Marcus charged forward, sword blazing with Draxus's fire. Kira's arrows, blessed by Seraphina, flew true through the air.
+
+"You cannot defeat me!" Malachar roared, shadows swirling around him like living creatures.
+
+Lyra focused her magic, feeling the Vault's ancient power responding to her call. "I don't have to defeat you. I just have to seal the crystal!"
+
+She began chanting the words of binding, her voice growing stronger with each syllable.
+
+Malachar's eyes widened with rage. "No!"
+
+He sent a wave of darkness toward Lyra, but Marcus threw himself in front of her, his shield absorbing the impact.
+
+"Finish it!" Marcus shouted, struggling to maintain his defense.
+
+Seraphina joined her power with Lyra's, and Kira's final arrow struck the crystal, activating its sealing mechanism.
+
+Light exploded outward, pure and blinding. Malachar screamed as the darkness was torn from him, drawn into the crystal along with all his power.
+
+When the light faded, Malachar was gone—not destroyed, but imprisoned within the crystal itself, sealed away forever.
+
+Chapter 10: The Price of Victory
+
+The companions stood in the aftermath, battered but alive. The crystal now sat dormant on the pedestal, the runes forming an unbreakable seal around it.
+
+"Is it over?" Kira asked, lowering her bow.
+
+"It's over," Draxus confirmed. "The crystal is sealed, and Malachar with it. Neither can harm this world again."
+
+Lyra felt a wave of exhaustion wash over her. Marcus caught her as she stumbled.
+
+"Easy," he said gently. "You did it."
+
+"We did it," Lyra corrected, looking at each of her companions. "All of us."
+
+Seraphina smiled. "The world is safe because of your courage."
+
+Draxus lowered his great head. "You have proven yourselves true heroes. As reward, I offer you each a boon—one favor from the last dragon."
+
+Kira's eyes lit up. "Anything?"
+
+"Within reason," Draxus said with a hint of amusement.
+
+But Lyra shook her head. "We don't need a reward. Knowing the world is safe is enough."
+
+Marcus and Seraphina nodded in agreement. Even Kira, despite her obvious disappointment, smiled.
+
+"Very well," Draxus said. "Then I offer you this—should you ever need my aid, call my name to the wind, and I shall come."
+
+"Thank you," Lyra said, bowing deeply.
+
+Chapter 11: The Journey Home
+
+The return journey was lighter somehow, despite their exhaustion. The weight of the crystal was gone, and with it, the terrible responsibility.
+
+"What will you do now?" Marcus asked as they walked through the forest.
+
+Kira grinned. "I hear there's a nest of bandits in the Eastern Hills. Thought I might clean them out."
+
+"Always the hero," Seraphina teased. She turned to Lyra and Marcus. "And you two?"
+
+Lyra and Marcus exchanged glances. "Back to the academy," Lyra said. "There's still so much to learn."
+
+"And someone needs to keep her out of the restricted section," Marcus added with a smile.
+
+Seraphina laughed. "Then this is where we part ways. But know this—you have friends in the Whispering Forest. Always."
+
+They embraced, each knowing their paths would cross again someday.
+
+As Lyra and Marcus walked toward home, she realized something important.
+
+"We make a good team," she said.
+
+Marcus smiled. "The best."
+
+Chapter 12: A New Beginning
+
+Six months later, Lyra stood before the Academy Council, receiving the honor of Master Mage—the youngest in history.
+
+"Your actions saved countless lives," the Headmaster said, placing the silver medallion around her neck. "You've proven that true strength comes not from power, but from the courage to do what's right."
+
+The crowd erupted in applause. Lyra saw Marcus in the front row, Kira and Seraphina beside him, all beaming with pride.
+
+After the ceremony, they gathered in the courtyard.
+
+"So, Master Mage," Kira teased. "What's your first official act?"
+
+Lyra smiled mischievously. "I'm forming a team. Heroes who will protect the realm from threats both known and unknown."
+
+"Got anyone in mind?" Marcus asked, though he already knew the answer.
+
+"I might," Lyra said, looking at each of them. "If you're interested."
+
+"Always," Seraphina said.
+
+"Count me in," Kira added.
+
+Marcus placed his hand on Lyra's shoulder. "Wherever you lead, I follow."
+
+Lyra felt warmth spread through her chest. The crystal was sealed, Malachar was defeated, but their adventures were far from over.
+
+This was just the beginning.
+
+The End`,
   },
   {
     id: "complete-scifi-1",
@@ -42,7 +352,315 @@ export const completeBooks = [
     readingTime: "2h 15m",
     publishedDate: "2024-11-28",
     tags: ["Space Opera", "First Contact", "Thriller"],
-    content: `Chapter 1: The Signal...`
+    content: `Chapter 1: The Signal
+
+    Commander Sarah Chen floated through the observation deck of Station Omega, Earth's last functioning orbital platform. Outside the reinforced windows, the planet below was shrouded in storms—the legacy of the Great Collapse.
+    
+    "Commander," called Lieutenant Marcus Rivera over the comm. "You need to see this."
+    
+    Sarah pushed off toward the communications bay, her movements practiced after five years in zero-g. Marcus was at his station, headphones on, face pale.
+    
+    "What is it?" she asked.
+    
+    "A signal," he said, replaying the audio. "But not from Earth."
+    
+    The sound that filled the bay was unlike anything Sarah had heard—rhythmic pulses that seemed almost musical, but with an underlying pattern that spoke of intelligence.
+    
+    "Origin point?" Sarah demanded.
+    
+    "Jupiter's orbit," replied Dr. Elena Volkov, the station's science officer. Her Russian accent was thick with excitement. "Approximately where Europa should be. Commander, this is not natural."
+    
+    Sarah's mind raced. "Are you saying—"
+    
+    "First contact," Elena breathed. "This is first contact."
+    
+    The implications were staggering. Humanity had been alone for so long, struggling to survive on a dying planet.
+    
+    "Wake Captain Harrison," Sarah ordered. "And Marcus, keep that signal quiet. No one else hears this until we know what we're dealing with."
+    
+    "Yes ma'am," Marcus replied.
+    
+    But in the shadows of the engineering bay, someone had already heard.
+    
+    Chapter 2: The Debate
+    
+    Captain William Harrison was a veteran of the Resource Wars, his face lined with decades of hard decisions. He listened to the signal three times before speaking.
+    
+    "It could be a trap," he said gravely.
+    
+    "Or it could be salvation," Elena argued. "Sir, we're dying down there. Earth has maybe fifty years left, tops. If there's even a chance these beings can help—"
+    
+    "We don't know they're beings," Harrison interrupted. "Could be automated. Could be a weapon."
+    
+    Sarah stood between them. "Either way, we need to investigate. We're the only ones with the capability."
+    
+    Harrison looked at her, then at the station's crew manifest on his tablet. "We have one functioning shuttle. Crew of four maximum. Europa is a six-month journey."
+    
+    "I'll lead the mission," Sarah said immediately.
+    
+    "I'm going too," Elena added. "We'll need a scientist."
+    
+    Marcus stepped forward. "And a communications expert."
+    
+    They all looked to the fourth person in the room—Jackson Cole, the station's best pilot. He was young, cocky, and brilliant.
+    
+    "Don't look at me like that," Jackson said with a grin. "Of course I'm in. Someone's gotta keep you all alive."
+    
+    Harrison studied them for a long moment. "Then God help you all. You leave in forty-eight hours."
+    
+    Chapter 3: Sabotage
+    
+    The shuttle Artemis was being prepped in the main hangar when the explosion rocked the station.
+    
+    "Fire in Bay Three!" someone shouted over the comms.
+    
+    Sarah raced through the corridors, arriving to find flames consuming one of the supply pods—the one marked for their mission.
+    
+    "Sabotage," Marcus said, examining the blast pattern. "Someone planted charges."
+    
+    "Who would do this?" Elena demanded.
+    
+    A voice crackled over Sarah's personal comm—Captain Harrison, private channel. "Get to my quarters. Now. All of you."
+    
+    When they arrived, they found Harrison with another man—Dr. Robert Chen, Sarah's own father and the station's head of security.
+    
+    "Dad?" Sarah said, confused. "What's going on?"
+    
+    Robert's face was grim. "There's a faction on the station. They believe contact with aliens will bring destruction. They'll do anything to stop this mission."
+    
+    "Even kill us?" Jackson asked.
+    
+    "Even that," Harrison confirmed. "Which is why you're leaving early. Right now."
+    
+    "But we're not ready—" Elena protested.
+    
+    "You leave in one hour or you don't leave at all," Robert said. "I'll handle the saboteurs. You handle first contact."
+    
+    Sarah looked at her father, seeing the fear in his eyes—not for humanity, but for her.
+    
+    "Stay safe, kiddo," he said softly.
+    
+    "You too, Dad," Sarah replied.
+    
+    Sixty minutes later, the Artemis launched into the black.
+    
+    Chapter 4: The Long Journey
+    
+    Three months into the journey, the close quarters were beginning to wear on everyone.
+    
+    "I swear, if Marcus hums that song one more time, I'm spacing him," Jackson muttered.
+    
+    "What song?" Marcus asked innocently, then immediately started humming again.
+    
+    Elena laughed from her station. "Children, please. We still have three months together."
+    
+    Sarah smiled despite the tension. The crew had become like family, their personalities meshing in ways she hadn't expected.
+    
+    "Signal's getting stronger," Elena reported. "Whatever's broadcasting it, we're getting close."
+    
+    "Any changes in the pattern?" Sarah asked.
+    
+    "Actually, yes," Elena said, her expression growing serious. "It's... responding to us. Like it knows we're coming."
+    
+    The cabin fell silent.
+    
+    "That's impossible," Marcus said. "Unless—"
+    
+    "Unless it's been watching us this whole time," Jackson finished.
+    
+    Sarah felt a chill. "Keep monitoring it. And everyone, stay sharp."
+    
+    That night—or what passed for night in space—Sarah couldn't sleep. She found Marcus in the common area, staring out at Jupiter's growing mass.
+    
+    "Scared?" she asked.
+    
+    "Terrified," he admitted. "You?"
+    
+    "Absolutely," Sarah said. "But also excited. We might be about to change everything."
+    
+    Marcus smiled. "Here's to changing everything, Commander."
+    
+    They touched their water pouches together in a zero-g toast.
+    
+    Chapter 5: Europa
+    
+    The moon hung before them like a cracked marble, its icy surface crisscrossed with dark lines.
+    
+    "There," Elena said, pointing to a massive crevasse. "The signal's coming from inside."
+    
+    "Can we land?" Sarah asked.
+    
+    Jackson studied his instruments. "There's a flat section near the opening. It'll be tight, but I can do it."
+    
+    "Do it," Sarah ordered.
+    
+    The landing was harrowing, ice crystals spraying as the Artemis touched down. They suited up quickly, checking seals and oxygen levels.
+    
+    "Remember," Sarah said. "We have four hours of air. In and out."
+    
+    The ice beneath their feet crunched as they approached the crevasse. It descended into absolute darkness, but Elena's scanner showed a massive chamber below.
+    
+    "There's atmosphere down there," she reported. "Breathable. How is that possible?"
+    
+    "Only one way to find out," Jackson said, attaching his rappelling line.
+    
+    They descended into the ice, the signal growing louder with each meter. And then, suddenly, they emerged into light.
+    
+    "Oh my God," Marcus breathed.
+    
+    Below them was a city—crystalline structures that pulsed with bioluminescent light, grown from the ice itself. And moving through it were beings of pure energy, their forms shifting and beautiful.
+    
+    "First contact," Sarah whispered.
+    
+    One of the beings approached, its form coalescing into something almost humanoid.
+    
+    "Welcome," it said, its voice resonating in their minds. "We have been waiting for you."
+    
+    Chapter 6: The Revelation
+    
+    The being called itself Lyss, though it explained that names were a concept it adopted to make humans comfortable.
+    
+    "You are dying," Lyss said simply. "Your world. We have watched for many cycles."
+    
+    "Can you help us?" Elena asked desperately.
+    
+    "We can," Lyss replied. "But first, you must understand. We are not the first to offer this choice."
+    
+    Images flooded their minds—thousands of worlds, millions of years. Species rising, falling, and rising again. And always, the choice.
+    
+    "What choice?" Sarah demanded.
+    
+    "Evolution or extinction," Lyss explained. "We offer the path to transcendence—to become as we are. Energy, immortal, unlimited. But you must leave your physical forms behind."
+    
+    "All of humanity?" Marcus asked.
+    
+    "All who choose," Lyss said. "Many species have accepted. Some have refused. Those who refuse... continue as they are. We do not judge."
+    
+    Sarah's mind reeled. This was bigger than first contact. This was the future of the human race.
+    
+    "We need to bring this information back to Earth," she said.
+    
+    "Of course," Lyss agreed. "But know this—others come. Those who would not offer a choice. Those who would simply take. You have perhaps ten of your years before they arrive."
+    
+    "Who?" Jackson demanded.
+    
+    "Conquerors," Lyss said. "And against them, in your current form, you cannot win."
+    
+    Chapter 7: The Impossible Decision
+    
+    Back on the Artemis, the crew argued for hours.
+    
+    "This is insane," Jackson said. "Give up our bodies? That's not evolution, that's extinction with better PR!"
+    
+    "But we'd survive," Elena countered. "Humanity would continue, just in a different form."
+    
+    "Would it though?" Marcus asked. "Would we still be human if we're made of energy?"
+    
+    Sarah listened to them, feeling the weight of command like never before. They would return to Earth with this news, and humanity would have to decide its own fate.
+    
+    "Commander?" Elena asked. "What do you think?"
+    
+    Sarah looked at each of them. "I think... this has to be a choice every person makes for themselves. We can't decide for all of humanity."
+    
+    "But we can recommend," Marcus said.
+    
+    "No," Sarah said firmly. "We present the facts. All of them. The opportunity and the threat. Then we let people choose."
+    
+    Jackson snorted. "You really think it'll be that simple?"
+    
+    "No," Sarah admitted. "But it's the right thing to do."
+    
+    They began the long journey home, carrying the most important message in human history.
+    
+    Chapter 8: Homecoming
+    
+    Six months later, Station Omega appeared on their screens. But something was wrong.
+    
+    "I'm reading weapons signatures," Marcus reported. "Commander, they're armed for war."
+    
+    Sarah's blood ran cold. "Hail them. Now."
+    
+    Captain Harrison's face appeared, older and wearier than before. "Thank God you made it back. Sarah, we have a problem."
+    
+    "The saboteurs?" she asked.
+    
+    "Worse. They've taken over the Earth Council. Anyone who supports the mission is being labeled a traitor. Your father—" He paused. "Robert's in custody."
+    
+    "What?" Sarah stood, fury coursing through her.
+    
+    "They know you found something," Harrison continued. "And they're preparing to destroy it before you can tell anyone what it is."
+    
+    Sarah looked at her crew. They all nodded.
+    
+    "Then we don't dock," she said. "We broadcast. To everyone. Every frequency. Tell the whole world what we found and let them decide."
+    
+    "They'll call it propaganda," Harrison warned.
+    
+    "Maybe," Sarah agreed. "But they can't suppress everyone. Marcus, prepare the signal."
+    
+    "On it," Marcus said, fingers flying over his console.
+    
+    Elena stepped forward. "Commander, if we do this, we become fugitives."
+    
+    "I know," Sarah said. "Everyone willing to turn back, I understand. No judgment."
+    
+    No one moved.
+    
+    "Then let's change the world," Sarah said.
+    
+    Chapter 9: The Broadcast
+    
+    Marcus's voice was steady as he began the transmission, relaying everything they'd learned. Sarah followed with visual evidence—recordings from Europa, Lyss's message, the warning about the conquerors.
+    
+    "People of Earth," Sarah concluded. "We face a choice. Not an easy one, but one that belongs to all of us. What we become next is not for governments to decide, or councils, or commanders. It's for every single person to choose for themselves."
+    
+    The transmission ended. For a moment, there was only silence.
+    
+    Then the comms exploded with responses. Some angry, some hopeful, all demanding answers.
+    
+    "We did it," Marcus breathed.
+    
+    But Elena was reading her scanner, face pale. "Commander, we have incoming. Military shuttles, armed."
+    
+    "Here we go," Jackson said, hands on the controls.
+    
+    "Wait," Harrison's voice cut through. "Sarah, this is William. Stand down. The shuttles are... escort. The people heard your message. They're demanding answers. The Council has fallen."
+    
+    Sarah could hardly believe it. "What?"
+    
+    "You won a revolution," Harrison said with a laugh. "Now get down here so we can figure out what the hell we do next."
+    
+    Chapter 10: The New Dawn
+    
+    Three months later, Sarah stood before the United Earth Assembly—the new democratic body formed after the Council's collapse.
+    
+    The vote was complete: 67% of humanity chose to remain physical, to face the coming threat and evolve on their own terms. 33% chose transcendence, to join Lyss and the others in energy form.
+    
+    "A split decision," the Assembly Chair said. "But a decision nonetheless."
+    
+    Sarah nodded. "Then we prepare. Those who choose transcendence will help us develop new technologies. Those who remain will build ships, weapons, defenses."
+    
+    "Can we win?" the Chair asked.
+    
+    Sarah thought of her crew, her father, all the people who'd fought for the right to choose.
+    
+    "We're human," she said. "We're stubborn, creative, and we don't give up. So yes. We can win."
+    
+    Epilogue:
+    
+    Ten years later, the conquerors arrived.
+    
+    They found Earth defended by ships of crystal and energy, crewed by humans both physical and transcendent, fighting side by side.
+    
+    The battle was fierce, but humanity—in all its forms—prevailed.
+    
+    And Sarah Chen, now Admiral, looked out at the stars and smiled.
+    
+    The universe was vast, full of wonders and terrors.
+    
+    But humanity was ready.
+    
+    The End`,
   },
   {
     id: "complete-romance-1",
@@ -84,7 +702,317 @@ export const completeBooks = [
     readingTime: "2h 30m",
     publishedDate: "2024-11-15",
     tags: ["Thriller", "Detective", "Suspense"],
-    content: `Chapter 1: The First Call...`
+    content: `Chapter 1: Coming Home
+
+The coastal town of Seaside Haven looked exactly as Emma remembered—weathered boardwalk, salt-kissed air, and the old lighthouse standing sentinel over the harbor.
+
+"You okay, sis?" asked her brother Tom from the driver's seat.
+
+Emma forced a smile. "Just... memories."
+
+Ten years. Ten years since she'd left for culinary school in Paris, chasing her dreams. Now she was back because the family restaurant was failing, and Mom needed her.
+
+The car pulled up to Marina's—named after her late grandmother. The paint was peeling, the sign was faded, but the smell of her mother's cooking still drifted from inside.
+
+"Emma!" Her mother Rosa rushed out, pulling her into a fierce hug. "You came!"
+
+"Of course I came," Emma said, breathing in her mother's familiar perfume. "How bad is it?"
+
+Rosa's smile faltered. "Come inside. We'll talk."
+
+As they walked toward the restaurant, a familiar voice called out.
+
+"Emma? Emma Rodriguez?"
+
+She turned and her heart stopped.
+
+Liam Parker stood there, looking both exactly like and nothing like the boy she'd left behind. His dark hair was shorter now, laugh lines around his eyes, but that smile—that smile was unchanged.
+
+"Liam," she breathed.
+
+"Welcome home," he said softly.
+
+And just like that, all those carefully buried feelings came rushing back.
+
+Chapter 2: Unexpected Partners
+
+The restaurant's books were worse than Emma imagined.
+
+"We have three months," Rosa said quietly. "Unless we can turn a profit, the bank will foreclose."
+
+Emma's mind raced. "We need to modernize. Update the menu, renovate the dining room—"
+
+"With what money?" Tom asked gently.
+
+A knock on the door interrupted them. Liam stood there, looking hesitant.
+
+"Sorry to intrude," he said. "But I heard you might need help. I'm a contractor now. Maybe I could take a look at the renovations you need?"
+
+Emma's pride wanted to refuse, but her practical side won. "That would be... helpful. Thank you."
+
+Over the next week, Liam drew up plans while Emma revamped the menu. They fell into an easy rhythm, despite the decade apart.
+
+"You got really good at this," Liam said one evening, watching her test a new recipe.
+
+"Had good teachers," Emma replied. "Paris was amazing."
+
+"Why'd you come back?" he asked.
+
+Emma paused. "Family. Duty." She looked at him. "Why'd you stay?"
+
+"This is home," Liam said simply. "Always has been. And... I was waiting."
+
+"For what?"
+
+"For you," he said quietly.
+
+The spatula slipped from Emma's hand.
+
+Chapter 3: Old Wounds
+
+Emma avoided Liam for three days after his confession, throwing herself into work.
+
+"You can't hide forever," her mother said, finding her in the kitchen at midnight.
+
+"I'm not hiding. I'm cooking."
+
+Rosa sat down, sighing. "That boy loved you. Still does, from what I can see."
+
+"He deserves someone who stays," Emma said. "I left once. What's to stop me from leaving again?"
+
+"Maybe this time," Rosa said gently, "you'd have a reason to stay."
+
+The next day, Liam arrived with his construction crew. Emma steeled herself and approached him.
+
+"About what you said—"
+
+"Forget it," Liam interrupted, voice carefully neutral. "I shouldn't have said anything. Let's just focus on the restaurant."
+
+"Liam—"
+
+"Really, Emma. It's fine." He walked away before she could respond.
+
+But it wasn't fine. The easy rhythm was gone, replaced by awkward silence and careful distance.
+
+Tom watched them dance around each other for days before cornering his sister.
+
+"You're an idiot," he said bluntly.
+
+"Excuse me?"
+
+"You're in love with him. He's in love with you. And you're both too scared to do anything about it."
+
+"It's not that simple—"
+
+"Yes," Tom said firmly, "it is. Stop making it complicated."
+
+Chapter 4: The Festival
+
+The town's annual Summer Festival was in two weeks, and Rosa insisted Marina's should have a booth.
+
+"It's tradition," she argued. "And good publicity."
+
+Emma agreed, but that meant working alongside Liam to build the booth. Their first day working together was tense.
+
+"Hand me the hammer," Liam said.
+
+"Please," Emma replied automatically.
+
+He looked at her, surprised. "What?"
+
+"You forgot to say please. You always forget."
+
+Despite himself, Liam smiled. "Some things never change."
+
+"Some things do," Emma said softly.
+
+They worked in silence for a while, but it was comfortable now instead of awkward.
+
+"I'm sorry," Emma finally said. "For leaving without saying goodbye. You deserved better."
+
+Liam set down his tools. "I'm sorry for making you feel like you had to choose between your dreams and me. You deserved to chase those dreams."
+
+"Maybe we both made mistakes," Emma said.
+
+"Maybe," Liam agreed. "But we were young. We can't change the past."
+
+"But we can change the present," Emma said, meeting his eyes.
+
+Liam stepped closer. "What are you saying?"
+
+"I'm saying... I'd like to start over. Be friends again."
+
+Something flickered in Liam's eyes—disappointment maybe—but he nodded. "Friends. I can do that."
+
+It was a start.
+
+Chapter 5: Secrets and Revelations
+
+The festival booth was almost complete when Emma discovered the photographs.
+
+Old pictures stuffed in a box in the storage room—her grandmother Marina, young and smiling, with a man who wasn't her grandfather.
+
+"Mom," Emma called. "Who is this?"
+
+Rosa went pale. "Where did you find those?"
+
+"Back room. Mom, what's going on?"
+
+Rosa sat down heavily. "That was Antonio. Your grandmother's first love."
+
+The story came out slowly. Marina had been engaged to Antonio, a chef from Italy. But he'd died in an accident, and heartbroken, she'd eventually married Emma's grandfather. She'd opened the restaurant in Antonio's honor, using his recipes.
+
+"All these years," Emma whispered. "Our signature dishes—"
+
+"Were his," Rosa confirmed. "She never stopped loving him, but she built a good life anyway. Love isn't always simple, mija."
+
+That night, Emma couldn't sleep. She found herself at the beach, staring at the waves.
+
+"Couldn't sleep either?" Liam's voice startled her.
+
+"Just thinking," she said. He sat beside her, keeping respectful distance.
+
+"About what?"
+
+Emma told him about Marina and Antonio. "She lost her first love but found happiness anyway. I just wonder... if I hadn't left, would we—"
+
+"Don't," Liam said gently. "Don't play that game. You did what you needed to do. And you became an amazing chef because of it."
+
+"But I lost you."
+
+"Maybe," Liam said. "Or maybe we're right where we're supposed to be. Now. Tonight. With a second chance."
+
+Emma looked at him, really looked. "Is that what this is?"
+
+"I don't know," Liam admitted. "But I'd like to find out."
+
+Chapter 6: The Festival Night
+
+Marina's booth was the hit of the festival. Emma's modern takes on her grandmother's recipes drew lines around the block.
+
+"We did it!" Rosa laughed, hugging her daughter.
+
+The evening ended with dancing on the pier. Emma stood watching, content, when Liam appeared.
+
+"Dance with me?" he asked, offering his hand.
+
+"Liam—"
+
+"As friends," he assured her. "Just friends dancing."
+
+But when he pulled her close, when she felt his heartbeat against hers, it didn't feel like friendship.
+
+"I missed this," Liam murmured. "Missed you."
+
+"I missed you too," Emma admitted. "More than I wanted to."
+
+The song changed to something slow, romantic. Other couples pressed closer. Emma knew she should step back, maintain the boundary.
+
+Instead, she moved closer.
+
+"Emma," Liam breathed.
+
+"I'm scared," she whispered. "What if I leave again? What if I hurt you?"
+
+"What if you stay?" Liam countered. "What if we get it right this time?"
+
+"Is that even possible?"
+
+"Only one way to find out."
+
+He leaned down, giving her every chance to pull away. Instead, Emma rose on her tiptoes and kissed him.
+
+It was like coming home.
+
+Chapter 7: Decisions
+
+The morning after the festival, reality crashed back in.
+
+"Paris called," Rosa said carefully. "They want you to head their new restaurant."
+
+Emma's dream job. Everything she'd worked for.
+
+"When do they need an answer?"
+
+"End of the month."
+
+Four weeks. Four weeks to decide between the life she'd always wanted and the life she was building here.
+
+Liam found out from Tom, who couldn't keep a secret to save his life.
+
+"You're leaving," Liam said flatly when he saw her.
+
+"I don't know," Emma said. "I haven't decided."
+
+"What's to decide? It's Paris. It's everything you wanted."
+
+"Maybe what I want has changed!"
+
+"Or maybe you're just scared," Liam shot back. "Again."
+
+The words stung. "That's not fair."
+
+"Isn't it?" Liam's voice was pained. "Emma, I love you. I've always loved you. But I can't keep waiting for you to figure out if this life—if I—am enough."
+
+"Liam—"
+
+"No. You need to decide. But know this—whatever you choose, I'll support. Because I love you enough to let you go, even if it kills me."
+
+He walked away, leaving Emma alone with her impossible choice.
+
+Chapter 8: The Heart Knows
+
+Emma spent a week in agony, weighing pros and cons. Then Rosa sat her down.
+
+"You know what your grandmother told me before she died?" Rosa asked. "She said she never regretted choosing love. Not once."
+
+"But she lost Antonio—"
+
+"And found your grandfather. Found family. Found joy. The restaurant was never just about Antonio, mija. It was about building something that mattered. About putting love into the world."
+
+Emma looked around the restaurant—updated now, thriving, full of life. She thought about Paris, about professional kitchens and Michelin stars.
+
+Then she thought about Liam's smile. Her mother's laugh. Tom's terrible jokes. The community that had welcomed her home.
+
+"I already built something that matters," she said slowly. "Right here."
+
+Rosa smiled. "Then you know what to do."
+
+Emma found Liam at the lighthouse, their old spot.
+
+"I called Paris," she said.
+
+He tensed, not looking at her. "And?"
+
+"I turned them down."
+
+Now he looked. "Emma, you don't have to—"
+
+"I want to," she interrupted. "Liam, I spent ten years chasing a dream. And I caught it. I became a great chef. But somewhere along the way, I forgot that cooking is about more than technique. It's about love. Family. Home."
+
+"You're sure?" Liam asked, hope and fear warring in his eyes.
+
+"No," Emma admitted. "But I'm sure about you. About us. About building a life here, together."
+
+"Together," Liam repeated, pulling her close. "I like the sound of that."
+
+"Me too," Emma said, and kissed him as the lighthouse beam swept overhead, guiding ships safely home.
+
+Epilogue:
+
+One year later, Marina's Restaurant reopened after a complete renovation. The sign now read "Marina & Antonio's," honoring both grandparents and their legacy of love.
+
+Emma stood at the pass, watching her team work. Through the kitchen window, she could see Liam at their favorite table with their families.
+
+He caught her eye and smiled. She smiled back.
+
+She'd chased her dreams halfway around the world only to discover the best one was waiting at home.
+
+Sometimes the greatest adventure is learning where you belong.
+
+And Emma finally knew—she belonged right here.
+
+The End`,
   },
   {
     id: "complete-children-1",
