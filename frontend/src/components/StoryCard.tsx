@@ -20,7 +20,7 @@ interface StoryCardProps {
   readTime: string;
   views: number;
   onRead: (id: string) => void;
-  onListen: (id: string) => void;
+  onListen?: (id: string) => void;
 }
 
 export function StoryCard({
@@ -94,17 +94,19 @@ export function StoryCard({
               >
                 <Book className="w-5 h-5" />
               </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onListen(id);
-                }}
-                className="p-3 bg-orange-500/90 backdrop-blur-sm rounded-full text-white hover:bg-orange-500 transition-colors shadow-lg"
-              >
-                <Play className="w-5 h-5" />
-              </motion.button>
+              {onListen && (
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onListen(id);
+                  }}
+                  className="p-3 bg-orange-500/90 backdrop-blur-sm rounded-full text-white hover:bg-orange-500 transition-colors shadow-lg"
+                >
+                  <Play className="w-5 h-5" />
+                </motion.button>
+              )}
             </div>
             
             {/* Badges */}
@@ -115,11 +117,13 @@ export function StoryCard({
             </div>
             
             {/* Audio Badge */}
-            <div className="absolute top-3 right-3">
-              <Badge variant="secondary" className="bg-black/80 text-white border-0 shadow-sm">
-                🎧 Audio
-              </Badge>
-            </div>
+            {onListen && (
+              <div className="absolute top-3 right-3">
+                <Badge variant="secondary" className="bg-black/80 text-white border-0 shadow-sm">
+                  🎧 Audio
+                </Badge>
+              </div>
+            )}
             
             {/* Bookmark Button */}
             <motion.button
@@ -183,31 +187,30 @@ export function StoryCard({
         >
           <Button 
             onClick={() => onRead(id)} 
-            className="w-full gap-2 bg-gradient-to-r from-orange-500 to-yellow-500 
-                       hover:from-orange-600 hover:to-yellow-600 text-white border-0"
+            className="w-full gap-2 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white border-0"
             size="sm"
           >
             <Book className="w-4 h-4" />
             Read
           </Button>
         </motion.div>
-
-        <motion.div 
-          whileHover={{ scale: 1.02 }} 
-          whileTap={{ scale: 0.98 }}
-          className="flex-1"
-        >
-          <Button 
-            onClick={() => onListen(id)} 
-            variant="outline" 
-            className="w-full gap-2 border-orange-200 text-orange-600 
-                       hover:bg-orange-50 hover:border-orange-300"
-            size="sm"
+        {onListen && (
+          <motion.div 
+            whileHover={{ scale: 1.02 }} 
+            whileTap={{ scale: 0.98 }}
+            className="flex-1"
           >
-            <Play className="w-4 h-4" />
-            Listen
-          </Button>
-        </motion.div>
+            <Button 
+              onClick={() => onListen(id)} 
+              variant="outline" 
+              className="w-full gap-2 border-orange-200 text-orange-600 hover:bg-orange-50 hover:border-orange-300"
+              size="sm"
+            >
+              <Play className="w-4 h-4" />
+              Listen
+            </Button>
+          </motion.div>
+        )}
       </CardFooter>
     </Card>
     </motion.div>
